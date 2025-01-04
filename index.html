@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+<body>
+    <main>
+        
+        <div id="Calc">
+            <input id="counter" style="grid-area: in;">
+                <button id="backspace" style="grid-area: del;" onclick="backspace()"> => </button>
+                <button style="grid-area: nu;" onclick="btnClick(0)">0</button>
+                <button style="grid-area: on;" onclick="btnClick(1)">1</button>
+                <button style="grid-area: tw;" onclick="btnClick(2)">2</button>
+                <button style="grid-area: th;" onclick="btnClick(3)">3</button>
+                <button style="grid-area: fo;" onclick="btnClick(4)">4</button>
+                <button style="grid-area: fi;" onclick="btnClick(5)">5</button>
+                <button style="grid-area: si;" onclick="btnClick(6)">6</button>
+                <button style="grid-area: se;" onclick="btnClick(7)">7</button>
+                <button style="grid-area: ei;" onclick="btnClick(8)">8</button>
+                <button style="grid-area: ni;" onclick="btnClick(9)">9</button>
+                <button style="grid-area: dot;" onclick="btnClick(`.`)">.</button>
+                <button id="equal" style="grid-area: eq;" onclick="equal()">=</button>
+                <button id="add" style="grid-area: ad;" onclick="btnClick(`+`)">+</button>
+                <button id="subtract" style="grid-area: su;" onclick="btnClick(`-`)">-</button>
+                <button id="multiply" style="grid-area: mu;" onclick="btnClick(`*`)">*</button>
+                <button id="divide" style="grid-area: di;" onclick="btnClick(`/`)">/</button>
+                <button id="reset" style="grid-area: re;" onclick="resetCounter()">C</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
